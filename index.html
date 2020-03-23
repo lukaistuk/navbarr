@@ -4,49 +4,75 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400|Ubuntu&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 </head>
 
 <body>
+  <style>
+    #title{
 
-  <section id="title">
+      background-color:#ff4c68;
+    }
+    h1{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 3rem;
+      line-height: 1.5;
+    }
 
-    <!-- Nav Bar -->
 
-    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">Tindog</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+
+  </style>
+   <section id="title">
+  
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+    <a class="navbar-brand "href="">TinDog</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="">Contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="">Pricing</a>
           <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
-          </li>
-      </ul>
-   </div>
+            <a class="nav-link" href="">Download</a>
+           
+            
+
+      </li>
+    </ul>
+    </div>
+
   </nav>
+
+ 
+
+    <!-- Nav Bar -->
+
+
 
 
     <!-- Title -->
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Meet new and interesting dogs nearby.</h1>
+        <button type="button">Download</button>
+        <button type="button">Download</button>
+        
+      </div>
+
+    <div class="col-lg-6">
       <img src="iphone6.png" alt="iphone-mockup">
+    </div>
     </div>
 
   </section>
-
 
   <!-- Features -->
 
@@ -73,7 +99,7 @@
     <em>Pebbles, New York</em>
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="lady-img.jpg" alt="lady-profile">
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
     <em>Beverly, Illinois</em> -->
 
   </section>
@@ -82,7 +108,7 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="techcrunch.png" alt="tc-logo">
+    <img src="TechCrunch.png" alt="tc-logo">
     <img src="tnw.png" alt="tnw-logo">
     <img src="bizinsider.png" alt="biz-insider-logo">
     <img src="mashable.png" alt="mashable-logo">
